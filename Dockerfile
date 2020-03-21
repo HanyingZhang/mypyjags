@@ -37,7 +37,7 @@ RUN apt-get install -y jags
 RUN pip install pyjags
 
 # install jupyter lab 2.0.0
-pip install jupyterlab==1.2.6
+pip install jupyterlab==2.0.0
 
 # install other python packages
 RUN conda install -c anaconda docopt -y
